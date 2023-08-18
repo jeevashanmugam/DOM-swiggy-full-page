@@ -1,0 +1,157 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        /* font-weight: 600; */
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    .container {
+        width: 1360px;
+        margin: 0 auto;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .swiggyfood-header-sec {
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        background-color: white;
+        box-shadow: 0px 0px 5px #00000078;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 6px 16px;
+    }
+
+    .swiggy-logo {
+        width: 70px;
+        transition: .5s;
+    }
+
+    .swiggy-logo:hover {
+        transform: scale(1.1);
+        transition: .5s;
+        cursor: pointer;
+    }
+
+    .log-content,
+    .location {
+        display: flex;
+        align-items: center;
+        gap: 26px;
+    }
+
+    .location {
+        gap: 6px;
+    }
+
+    .location i {
+        color: #fc8019;
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .location a {
+        font-weight: 600;
+        text-decoration: underline;
+    }
+
+    .location a:hover,
+    nav li a:hover {
+        color: #fc8019;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        font-size: 16px;
+    }
+
+    nav ul i {
+        font-size: 20px;
+    }
+
+    nav li {
+        padding-right: 16px;
+    }
+
+    nav span {
+        padding-left: 16px;
+    }
+
+    /* ============= detailsConatiner =========== */
+    .detailsConatiner {
+        width: 50%;
+        margin: auto;
+    }
+    .shopName{
+        padding: 16px 0;
+        font-size: 20px;
+        color: #0f0f0fcf;
+    }
+    .row{
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+        padding: 24px 0; 
+        border-bottom: 1px solid #808080c4;
+    }
+    .bi-caret-up-square{
+        color: red;
+    }
+    .bi-star-fill{
+        color: orange;
+    }
+    .col h3{
+        padding: 10px 0;
+        color: #5e5d5d;
+    }
+    .col button{
+        padding: 8px 25px;
+        outline: none;
+        border: none;
+        border-radius: 4px;
+        color: green;
+        font-weight: 600;
+        margin-left: 10px;
+        box-shadow: 0px 0px 5px #00000078;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
